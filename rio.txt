@@ -17,176 +17,223 @@ line error ff00ff
 line none ff00ff
 
 # Single lines
-line PavBot 008844
+line PVNBTF 008844
 
 ### Stations ###
 
 station PAV Pavuna 0.0,0.0
 label N
-platform 1 E PavBot B
-platform 2 E PavBot B
+platform 2 W PVNBTF B
+platform 1 E PVNBTF B
+
+waypoint PAVsidetrack 1.0,1.0
+platform 1 E PVNBTF N
 
 station ERP Engenheiro Rubens Paiva 10.0,0.0
 label S
-platform 1 E PavBot R
-platform 2 E PavBot L
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station AFB Acari/Fazenda Botafogo 20.0,0.0
 label N
-platform 1 E PavBot R
-platform 2 E PavBot L
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station CNT Coelho Neto 30.0,0.0
 label S
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station CLG Colégio 40.0,0.0
 label N
-platform 1 E PavBot R
-platform 2 E PavBot L
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station IRJ Irajá 50.0,0.0
 label S
-platform 1 E PavBot R
-platform 2 E PavBot L
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station VCV Vicente de Carvalho 60.0,0.0
 label N
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station TCL Tomás Coelho 70.0,0.0
 label S
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station ERN Engenho da Rainha 80.0,0.0
 label N
-platform 1 E PavBot R
-platform 2 E PavBot L
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station INH Inhaúma 90.0,0.0
 label S
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station DCT Nova América/Del Castilho 100.0,0.0
 label N
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station MGR Maria da Graça 110.0,0.0
 label S
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station TRG Triagem 120.0,0.0
 label N
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station MRC Maracanã 130.0,0.0
 label S
+platform 3 W PVNBTF L
+platform 2 E PVNBTF B
+platform 1 E PVNBTF L
 
 station SCR São Cristóvão 140.0,0.0
 label N
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station CNV Cidade Nova 150.0,0.0
 label S
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
-station SPN Saens Peña 110.0,10.0
-label N
+# station SPN Saens Peña 110.0,10.0
+# label N
 
-station SFX São Francisco Xavier 120.0,10.0
-label S
+# station SFX São Francisco Xavier 120.0,10.0
+# label S
 
-station AFP Afonso Pena 130.0,10.0
-label N
+# station AFP Afonso Pena 130.0,10.0
+# label N
 
-station ESA Estácio 140.0,10.0
-label S
+# station ESA Estácio 140.0,10.0
+# label S
 
-station POZ Praça Onze 150.0,10.0
-label N
+# station POZ Praça Onze 150.0,10.0
+# label N
 
 station CTR Central 160.0,10.0
 label S
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station PVG Presidente Vargas 170.0,10.0
 label N
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station URG Uruguaiana 180.0,10.0
 label S
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station CRC Carioca 190.0,10.0
 label N
+platform 2 W PVNBTF B
+platform 1 E PVNBTF B
 
 station CNL Cinelândia 200.0,10.0
 label S
+platform 2 W PVNBTF L
+platform 1 E PVNBTF L
 
 station GLR Glória 210.0,10.0
 label N
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station CTT Catete 220.0,10.0
 label S
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station LMC Largo do Machado 230.0,10.0
 label N
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
 station FLA Flamengo 240.0,10.0
 label S
+platform 2 W PVNBTF R
+platform 1 E PVNBTF R
 
-station BOT Botafogo 250.0,10.0
+station BTF Botafogo 250.0,10.0
 label N
-platform 1 E PavBot B
-platform 2 E PavBot B
+platform 2 W PVNBTF B
+platform 1 E PVNBTF B
 
-station CAV Cardeal Arcoverde 260.0,10.0
-label S
+# station CAV Cardeal Arcoverde 260.0,10.0
+# label S
 
-station SCP Siqueira Campos 270.0,10.0
-label N
+# station SCP Siqueira Campos 270.0,10.0
+# label N
 
-station CTG Cantagalo 280.0,10.0
-label S
+# station CTG Cantagalo 280.0,10.0
+# label S
 
-station IGO Ipanema/General Osório 290.0,10.0
-label N
+# station IGO Ipanema/General Osório 290.0,10.0
+# label N
 
 ### Segments ###
 
-track PAV-1 ERP-1 PavBot
-track PAV-2 ERP-2 PavBot
-subtrack PAV-2 ERP-1 PavBot #/
-subtrack PAV-1 ERP-2 PavBot #\
-track ERP-1 AFB-1 PavBot
-track ERP-2 AFB-2 PavBot
-subtrack ERP-1 AFB-2 PavBot
-track AFB-1 CNT-1 PavBot
-track AFB-2 CNT-2 PavBot
-track CNT-1 CLG-1 PavBot
-track CNT-2 CLG-2 PavBot
-track CLG-1 IRJ-1 PavBot
-track CLG-2 IRJ-2 PavBot
-subtrack CLG-1 IRJ-2 PavBot
-track IRJ-1 VCV-1 PavBot
-track IRJ-2 VCV-2 PavBot
-track VCV-1 TCL-1 PavBot
-track VCV-2 TCL-2 PavBot
-track TCL-1 ERN-1 PavBot
-track TCL-2 ERN-2 PavBot
-subtrack TCL-1 ERN-2 PavBot
-track ERN-1 INH-1 PavBot
-track ERN-2 INH-2 PavBot
-subtrack ERN-1 INH-2 PavBot
-track INH-1 DCT-1 PavBot
-track INH-2 DCT-2 PavBot
-track DCT-1 MGR-1 PavBot
-track DCT-2 MGR-2 PavBot
-subtrack DCT-1 MGR-2 PavBot
-track MGR-1 TRG-1 PavBot
-track MGR-2 TRG-2 PavBot
-subtrack MGR-1 TRG-2 PavBot
-#track TRG-1 BOT-1 PavBot #debug
-#track TRG-2 BOT-2 PavBot #debug
+# PVNBTF
+track PAV-1 ERP-1 PVNBTF
+track ERP-1 AFB-1 PVNBTF
+track AFB-1 CNT-1 PVNBTF
+track CNT-1 CLG-1 PVNBTF
+track CLG-1 IRJ-1 PVNBTF
+track IRJ-1 VCV-1 PVNBTF
+track VCV-1 TCL-1 PVNBTF
+track TCL-1 ERN-1 PVNBTF
+track ERN-1 INH-1 PVNBTF
+track INH-1 DCT-1 PVNBTF
+track DCT-1 MGR-1 PVNBTF
+track MGR-1 TRG-1 PVNBTF
+track TRG-1 MRC-2 PVNBTF
+track MRC-2 SCR-1 PVNBTF
+track SCR-1 CNV-1 PVNBTF
+track CNV-1 CTR-1 PVNBTF
+track CTR-1 PVG-1 PVNBTF
+track PVG-1 URG-1 PVNBTF
+track URG-1 CRC-1 PVNBTF
+track CRC-1 CNL-1 PVNBTF
+track CNL-1 GLR-1 PVNBTF
+track GLR-1 CTT-1 PVNBTF
+track CTT-1 LMC-1 PVNBTF
+track LMC-1 FLA-1 PVNBTF
+track FLA-1 BTF-1 PVNBTF
+
+# BTFPVN
+track TRG-2 MGR-2 PVNBTF
+track MGR-2 DCT-2 PVNBTF
+track DCT-2 INH-2 PVNBTF
+track INH-2 ERN-2 PVNBTF
+track ERN-2 TCL-2 PVNBTF
+track TCL-2 VCV-2 PVNBTF
+track VCV-2 IRJ-2 PVNBTF
+track IRJ-2 CLG-2 PVNBTF
+track CLG-2 CNT-2 PVNBTF
+track CNT-2 AFB-2 PVNBTF
+track AFB-2 ERP-2 PVNBTF
+track ERP-2 PAV-2 PVNBTF
+track MRC-3 TRG-2 PVNBTF
+track SCR-2 MRC-3 PVNBTF
+track CNV-2 SCR-2 PVNBTF
+track CTR-2 CNV-2 PVNBTF
+track PVG-2 CTR-2 PVNBTF
+track URG-2 PVG-2 PVNBTF
+track CRC-2 URG-2 PVNBTF
+track CNL-2 CRC-2 PVNBTF
+track GLR-2 CNL-2 PVNBTF
+track CTT-2 GLR-2 PVNBTF
+track LMC-2 CTT-2 PVNBTF
+track FLA-2 LMC-2 PVNBTF
+track BTF-2 FLA-2 PVNBTF
