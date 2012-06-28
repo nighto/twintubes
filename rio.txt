@@ -28,26 +28,165 @@ platform 2 E PavBot B
 
 station ERP Engenheiro Rubens Paiva 10.0,0.0
 label S
-platform 1 E PavBot L
-platform 2 E PavBot R
+platform 1 E PavBot R
+platform 2 E PavBot L
 
 station AFB Acari/Fazenda Botafogo 20.0,0.0
 label N
+platform 1 E PavBot R
+platform 2 E PavBot L
+
+station CNT Coelho Neto 30.0,0.0
+label S
 platform 1 E PavBot L
 platform 2 E PavBot R
 
-station BOT Botafogo 30.0,0.0
+station CLG Colégio 40.0,0.0
+label N
+platform 1 E PavBot R
+platform 2 E PavBot L
+
+station IRJ Irajá 50.0,0.0
+label S
+platform 1 E PavBot R
+platform 2 E PavBot L
+
+station VCV Vicente de Carvalho 60.0,0.0
+label N
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station TCL Tomás Coelho 70.0,0.0
+label S
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station ERN Engenho da Rainha 80.0,0.0
+label N
+platform 1 E PavBot R
+platform 2 E PavBot L
+
+station INH Inhaúma 90.0,0.0
+label S
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station DCT Nova América/Del Castilho 100.0,0.0
+label N
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station MGR Maria da Graça 110.0,0.0
+label S
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station TRG Triagem 120.0,0.0
+label N
+platform 1 E PavBot L
+platform 2 E PavBot R
+
+station MRC Maracanã 130.0,0.0
+label S
+
+station SCR São Cristóvão 140.0,0.0
+label N
+
+station CNV Cidade Nova 150.0,0.0
+label S
+
+station SPN Saens Peña 110.0,10.0
+label N
+
+station SFX São Francisco Xavier 120.0,10.0
+label S
+
+station AFP Afonso Pena 130.0,10.0
+label N
+
+station ESA Estácio 140.0,10.0
+label S
+
+station POZ Praça Onze 150.0,10.0
+label N
+
+station CTR Central 160.0,10.0
+label S
+
+station PVG Presidente Vargas 170.0,10.0
+label N
+
+station URG Uruguaiana 180.0,10.0
+label S
+
+station CRC Carioca 190.0,10.0
+label N
+
+station CNL Cinelândia 200.0,10.0
+label S
+
+station GLR Glória 210.0,10.0
+label N
+
+station CTT Catete 220.0,10.0
+label S
+
+station LMC Largo do Machado 230.0,10.0
+label N
+
+station FLA Flamengo 240.0,10.0
+label S
+
+station BOT Botafogo 250.0,10.0
 label N
 platform 1 E PavBot B
 platform 2 E PavBot B
+
+station CAV Cardeal Arcoverde 260.0,10.0
+label S
+
+station SCP Siqueira Campos 270.0,10.0
+label N
+
+station CTG Cantagalo 280.0,10.0
+label S
+
+station IGO Ipanema/General Osório 290.0,10.0
+label N
 
 ### Segments ###
 
 track PAV-1 ERP-1 PavBot
 track PAV-2 ERP-2 PavBot
-subtrack PAV-2 ERP-1 PavBot
-subtrack PAV-1 ERP-2 PavBot
+subtrack PAV-2 ERP-1 PavBot #/
+subtrack PAV-1 ERP-2 PavBot #\
 track ERP-1 AFB-1 PavBot
 track ERP-2 AFB-2 PavBot
 subtrack ERP-1 AFB-2 PavBot
-track AFB-1 BOT-1 PavBot #debug
+track AFB-1 CNT-1 PavBot
+track AFB-2 CNT-2 PavBot
+track CNT-1 CLG-1 PavBot
+track CNT-2 CLG-2 PavBot
+track CLG-1 IRJ-1 PavBot
+track CLG-2 IRJ-2 PavBot
+subtrack CLG-1 IRJ-2 PavBot
+track IRJ-1 VCV-1 PavBot
+track IRJ-2 VCV-2 PavBot
+track VCV-1 TCL-1 PavBot
+track VCV-2 TCL-2 PavBot
+track TCL-1 ERN-1 PavBot
+track TCL-2 ERN-2 PavBot
+subtrack TCL-1 ERN-2 PavBot
+track ERN-1 INH-1 PavBot
+track ERN-2 INH-2 PavBot
+subtrack ERN-1 INH-2 PavBot
+track INH-1 DCT-1 PavBot
+track INH-2 DCT-2 PavBot
+track DCT-1 MGR-1 PavBot
+track DCT-2 MGR-2 PavBot
+subtrack DCT-1 MGR-2 PavBot
+track MGR-1 TRG-1 PavBot
+track MGR-2 TRG-2 PavBot
+subtrack MGR-1 TRG-2 PavBot
+#track TRG-1 BOT-1 PavBot #debug
+#track TRG-2 BOT-2 PavBot #debug
