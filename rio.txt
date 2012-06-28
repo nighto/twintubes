@@ -8,6 +8,8 @@
 #platform <number> <dir> <line> <side>: A platform called "number" (can be any string), with direction <dir> on line <line> and with the platform on <side>: N (none, for straight-through lines), L, R or B (both)
 #track <station>-<platform> <station>-<platform> <line>: A section of track. Will layer on top of anything behind it with an outline effect.
 #subtrack <station>-<platform> <station>-<platform> <line>: Like track, but will not use an outline and so will merge with things behind it. For points, generally.
+#
+#rio de janeiro map: http://www.trilhosdorio.com.br/forum/viewtopic.php?f=10&t=6 
 
 ### Lines ###
 
