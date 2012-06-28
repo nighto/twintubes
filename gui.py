@@ -5,6 +5,7 @@ import pygtk
 pygtk.require('2.0')
 import gtk
 import cairo
+import sys
 
 
 class Gui(object):
@@ -280,4 +281,9 @@ class Renderer(gtk.DrawingArea):
 
 
 if __name__ == "__main__":
-    Gui("london.txt").main()
+    originalFileName = "london.txt"
+
+    if (len(sys.argv) == 2):
+        originalFileName = sys.argv[1]
+
+    Gui(originalFileName).main()
